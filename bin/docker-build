@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+docker build -t differenceengine/airflow-ml . && docker system prune -f
+
